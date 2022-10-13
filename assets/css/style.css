@@ -230,12 +230,136 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+main { 
+  height: 100vh;
+  display: flex;
+}
+
 main .wrapper {
+  /* position: relative; */
   display: flex;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.banner p {
+  text-transform: capitalize;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  letter-spacing: 1.5px;
+  line-height: 20px;
+}
+
+.banner p:nth-of-type(1) {
+  position: absolute;
+  left: 0;
+  top: 45px;
+}
+
+.banner p:nth-of-type(2) {
+  position: absolute;
+  left: 9%;
+  top: 70px;
+}
+
+ul li img {
+  width: 50%;
+}
+
+ul li:nth-of-type(1) {
+  position: absolute;
+  top: 5px;
+  left: 26%;
+  z-index: 11;
+}
+
+ul li:nth-last-of-type(2) {
+  position: absolute;
+  top: 179px;
+  left: 66px;
+  z-index: 12;
+  width: 16%;
+}
+
+ul li:nth-of-type(3) {
+  right: 10%;
+  position: absolute;
+  width: 8%;
+  top: 55px;
+}
+
+ul li:nth-of-type(4) {
+  position: absolute;
+  top: 250px;
+  left: 54%;
+  z-index: 4;
+}
+
+ul li:nth-of-type(5) {
+  position: absolute;
+  width: 10%;
+  top: 14px;
+  left: 66%;
+}
+
+ul li:nth-last-of-type(6) {
+  position: absolute;
+  top: 250px;
+  left: 66%;
+  z-index: 6;
+}
+
+ul li:nth-of-type(7) {
+  position: absolute;
+  width: 10%;
+  top: 241px;
+  left: 64%;
+}
+
+ul li:nth-of-type(8) {
+  position: absolute;
+  top: 122px;
+  left: 65%;
+}
+
+ul li:nth-of-type(9) {
+  position: absolute;
+  top: 245px;
+  left: 24%;
+  z-index: 1;
+  width: 32%;
+}
+
+ul li:nth-of-type(10) {
+  position: absolute;
+  top: 255px;
+  left: 268px;
+  z-index: 3;
+}
+
+ul li:nth-of-type(11) {
+  position: absolute;
+  top: 243px;
+  left: 27%;
+  z-index: 4;
+  width: 19%;
+}
+
+ul li:nth-of-type(12) {
+  position: absolute;
+  top: 174px;
+  left: 80%;
+  z-index: 10;
+}
+
+ul li:nth-of-type(13) {
+  position: absolute;
+  width: 35%;
+  top: 241px;
+  right: 244px;
+  z-index: 0;
 }
 
 .banner {
