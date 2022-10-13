@@ -124,7 +124,15 @@ li {
 /*=================================
   main styling starts here
 =================================*/
-
+main div 
+{
+  width: 50%;
+  height: auto;
+  background: url("/assets/Images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
