@@ -135,7 +135,8 @@ main
 
 .bg
 {
-  width: 15%;
+  position: relative;
+  width: 20%;
   height: 300px;
   background: url("/assets/Images/bg.jpg");
   background-position: center;
@@ -145,6 +146,24 @@ main
   text-indent: -9999px;
 }
 
+/* .top 
+{
+  padding: 5px 0;
+  background: url("/assets/Images/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bottom 
+{
+  position: absolute;
+  background: url("/assets/Images/table.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0px;
+} */
 
 
 
